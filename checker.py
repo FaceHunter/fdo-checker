@@ -6,7 +6,7 @@ hashlist = "http://facehunter.tk/fdo/iw4m.json"
 a = urllib.urlopen(hashlist)
 b = a.read()
 hashdict = eval(b)
-exceptlist = ["list.json","iw4m.ini","iw4mp.cfg"
+exceptlist = ["list.json","iw4m.ini","iw4mp.cfg"]
 
 def check(file, hash):
 	try:
